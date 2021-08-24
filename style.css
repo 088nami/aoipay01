@@ -1,7 +1,29 @@
-body{
-    width: 750px;
-    margin: 0 auto;
+img, iframe {
+    max-width: 100%;
 }
-header .header-aoipay{
- width: 200px;
+
+body {
+    width: 750px;
+}
+
+header {
+    position: relative;
+    height: 100px;
+}
+
+header .header_aoipay{
+    width: 200px;
+    margin: 0 auto;
+    height: 35px;
+    padding-top: 35px;
+}
+header .headar_btn{
+    position: absolute;
+    right: 85px;
+    top:20px;
+}
+/*メイン*/
+.main_view {
+    height: 750px;
+    background-image:url(images/mv.png);
 }
