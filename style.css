@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%;
+    font-size: 10px;
     height: 100vw;
 }
 
@@ -107,19 +107,16 @@ header .headar_btn {
     font-size: 1.5rem;
 }
 
-.service .aoipay_icon .card_icon .QR-icon {
-    width: 29.8%;
-}
-
-.service li {
+.service .service_grop li {
     display: flex;
     width: 92%;
     margin: 0 auto;
     align-items: center;
+    margin-bottom: -4.8vw;
 }
 
 .service li .aoipay_icon {
-    width: 29.8%;
+    width: 30.26%;
 }
 
 .service li .card_icon {
