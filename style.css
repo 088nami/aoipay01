@@ -1,6 +1,12 @@
+html {
+    font-size: 62.5%;
+    height: 100vw;
+}
+
 body {
     max-width: 750px;
     margin: 0 auto;
+    font-size: 1.4rem;
 }
 
 img {
@@ -12,7 +18,6 @@ header {
     height: 12vw;
     border-bottom: solid 0.5vw;
     border-image: linear-gradient(to right, #09afd2 0%, #07cfa0 100%);
-    border-image-slice: 1;
 }
 
 header .header_aoipay {
@@ -53,11 +58,11 @@ header .headar_btn {
     width: 46%;
 }
 
-.campaign h2{
-    font-size: 1.6rem;
+.campaign h2 {
+    font-size: 2.5rem;
     text-align: center;
-    margin-top: 6.6%;
-    margin-bottom: 9.3%;
+    margin-top:12.6vw;
+    margin-bottom: 10.5vw;
 }
 
 .campaign .campaign-grop {
@@ -92,12 +97,15 @@ header .headar_btn {
 /*ご利用方法*/
 
 .service h2 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-top: 26.6%;
     margin-bottom: 9.3%;
 }
 
+.service .service_text {
+    font-size: 1.5rem;
+}
 
 .service .aoipay_icon .card_icon .QR-icon {
     width: 29.8%;
@@ -138,15 +146,83 @@ header .headar_btn {
     text-decoration: none;
     color: rgb(157, 166, 172);
 }
+.service_text {
+    margin-left: 5.73vw;
+}
 
 .announce {
     background-image: url(images/town.png);
-    max-width: 100%;
-    height: 100vw;
-    background-position: center;
-    background-size: cover;
+    background-position: top 9vw right;
+    background-size: 52.8vw;
+    background-repeat: no-repeat;
+   
 }
 
-.service_text {
-    margin-left: 5.73vw;
+.announce h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 26.4vw;
+    margin-bottom: 14.6vw;
+}
+
+
+.announce .announce-text {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height:3vw;
+    margin-left: 4vw;
+}
+.announce .announce-text  :last-child{
+margin-bottom: 9.3vw;
+font-size: 1.1rem;
+}
+
+.announce .announce-text b {
+    font-size: 4.5rem;
+    line-height: 20vw;
+}
+
+.announce .announce-btn{
+    border: solid;
+    border-radius: 15px;
+    color: rgb(157, 166, 172);
+    height: 9.6vw;
+    width: 76.8vw;
+    margin: 0 auto;
+    padding-top: 5.3vw;
+    text-align: center;
+    margin-bottom: 4vw;
+}
+.announce .announce-btn :first-of-type{
+    margin-top: 10vw;
+   
+}
+
+.download h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 46vw;
+    margin-bottom: 14.3vw;
+}
+
+.download p {
+    width: 64vw;
+    margin: 0 auto;
+    margin-bottom: 3.3vw;
+}
+
+.cussion h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 26.4vw;
+    margin-bottom: 14.6vw;
+}
+
+.cussion dl {
+    font-size: 1.5rem;
+}
+
+.cussion dt {
+    background-image: url(images/Q-mark.png);
+    width: 11vw;
 }
