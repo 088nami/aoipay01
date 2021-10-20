@@ -1,0 +1,115 @@
+html {
+    font-size: 10px;
+    height: 100vw;
+}
+
+body {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    position: relative;
+    height: 12vw;
+    border-bottom: solid 0.5vw;
+    border-image: linear-gradient(to right, #09afd2 0%, #07cfa0 100%);
+}
+
+header .header_aoipay {
+    width: 28vw;
+    margin: 0 auto;
+    padding-top: 3.8vw;
+}
+
+header .headar_btn {
+    width: 9vw;
+    position: absolute;
+    left: 88vw;
+    top: 1.7vw;
+}
+
+
+
+.common{
+    color: #FFFFFF;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #09afd2 0%, #07cf9f 100%);
+    text-align: center;
+}
+.common h1 {
+    padding: 10.2vw 0 10.2vw 0;
+    font-size: 2.5rem;
+}
+
+.common .lead{
+    font-size: 1.3rem;
+    padding: 3.6vw 0 0 0;
+}
+
+/*フッター*/
+
+footer {
+    width: 100%;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #06a67e 0%, #0790a1 100%);
+    background-size: 100vw;
+    margin-top: 20vw;
+}
+
+footer .footer-grop {
+    padding-left: 4vw;
+}
+
+footer .footer-aicon-group {
+    display: flex;
+    padding-top: 11vw;
+    padding-bottom: 11.3vw;
+}
+
+footer .footer-aoypay {
+    padding-right: 10vw;
+}
+
+footer li {
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 2.1;
+}
+
+footer ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .footer-aoypay {
+    width: 36vw;
+}
+
+footer .twitter, .facebook, .instagram {
+    width: 6.6vw;
+    margin-right: 4vw;
+}
+
+footer .footer-text {
+    font-size: 1.3rem;
+    display: flex;
+}
+
+footer .footer-text-list {
+    display: flex;
+    margin-bottom: 12.8vw;
+}
+
+footer .footer-text ul {
+    padding-right: 15vw;
+}
+
+footer .copy-aoiyuwaku {
+    font-size: 1rem;
+    padding: 0 0 4vw 61vw;
+}
